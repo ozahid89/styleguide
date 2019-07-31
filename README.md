@@ -1,25 +1,19 @@
-Auth0 Styleguide
-================
+# Magnus Code Styleguide
 
-This repository contains a collection of the most common elements in the Auth0's products UI.
+This repository contains a collection of the most common elements in the Magnus Code's products UI.
 
-**This is for internal use by Auth0 only.**
-
-<img src="https://cloud.githubusercontent.com/assets/6318057/21591144/2a1ca1a6-d0e0-11e6-9431-16c56b859b56.png" />
-
+<!-- <img src="https://cloud.githubusercontent.com/assets/6318057/21591144/2a1ca1a6-d0e0-11e6-9431-16c56b859b56.png" /> -->
 
 ## Packages
 
-The Auth0 Styleguide is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) and it's composed of different packages:
+The Magnus Styleguide is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) and it's composed of different packages:
 
-| Package | Version | Description | Dependencies |
-|---------|---------|-------------|--------------|
-| [`core`](https://github.com/auth0/styleguide/tree/master/packages/core)    | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-core.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-core)   | Global styles (variables, mixins, colors, css reset, typography) | |
-| [`components`](https://github.com/auth0/styleguide/tree/master/packages/components) | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-components.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-components) | CSS components like buttons, tables (based on Bootstrap) | [`core`](https://github.com/auth0/styleguide/tree/master/packages/core) |
-| [`react-components`](https://github.com/auth0/styleguide/tree/master/packages/react-components) | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-react-components.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-react-components)| React components library |  [`core`](https://github.com/auth0/styleguide/tree/master/packages/core) [`components`](https://github.com/auth0/styleguide/tree/master/packages/components) |
-| [`website`](https://github.com/auth0/styleguide/tree/master/packages/website) | - | Styleguide website
-
-
+| Package                                                                                         | Version                                                                                                                                                      | Description                                                      | Dependencies                                                                                                                                                |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`core`](https://github.com/auth0/styleguide/tree/master/packages/core)                         | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-core.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-core)                         | Global styles (variables, mixins, colors, css reset, typography) |                                                                                                                                                             |
+| [`components`](https://github.com/auth0/styleguide/tree/master/packages/components)             | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-components.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-components)             | CSS components like buttons, tables (based on Bootstrap)         | [`core`](https://github.com/auth0/styleguide/tree/master/packages/core)                                                                                     |
+| [`react-components`](https://github.com/auth0/styleguide/tree/master/packages/react-components) | [![npm](https://img.shields.io/npm/v/@auth0/styleguide-react-components.svg?maxAge=86400)](https://www.npmjs.com/package/@auth0/styleguide-react-components) | React components library                                         | [`core`](https://github.com/auth0/styleguide/tree/master/packages/core) [`components`](https://github.com/auth0/styleguide/tree/master/packages/components) |
+| [`website`](https://github.com/auth0/styleguide/tree/master/packages/website)                   | -                                                                                                                                                            | Styleguide website                                               |
 
 ## Development
 
@@ -40,6 +34,4 @@ For more information on how to run each package check the specific README.
 
 ## License
 
-All the logos and branding are copyright Auth0 and may not be used or reproduced without explicit permission from Auth0 Inc.
-
-The icons are licensed from [Budi Harto Tanrim](http://budicon.buditanrim.co/). All other third-party components are subject to their own licenses.
+All the logos and branding are copyright Magnus Code and may not be used or reproduced without explicit permission from Magnus Code SDN BHD.
